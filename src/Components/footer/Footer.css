@@ -1,0 +1,11 @@
+
+#foooter{
+    display: flex;
+    justify-content: space-between;
+    /*height: px;*/
+    background-color: #ad5326; 
+    align-items: center;
+    margin-bottom: 0%;
+
+}
+
