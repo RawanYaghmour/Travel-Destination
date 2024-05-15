@@ -1,0 +1,73 @@
+/* Tour.css */
+
+/* General styles */
+body {
+    font-family: "Baloo 2", cursive;
+    font-size: 16px;
+    color: #ffffff;
+    text-rendering: optimizeLegibility;
+    font-weight: initial;
+}
+
+.dark {
+    background: #0a192f;
+    /* Dark blue background */
+}
+
+.light {
+    background: #f3f5f7;
+    /* Light gray background */
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.container {
+    max-width: 800px;
+    /* Limit the maximum width of the container */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 20px;
+    /* Add padding around the content */
+}
+
+/* Tour card */
+.postcard {
+    background: #1a1d1c;
+    /* Dark gray background */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Add padding inside the card */
+    margin-bottom: 20px;
+    /* Add space between cards */
+}
+
+.postcard__img {
+    width: 100%;
+    /* Make the image fill the container */
+    max-height: 200px;
+    /* Limit the maximum height of the image */
+    border-radius: 8px;
+    /* Rounded corners for the image */
+    object-fit: cover;
+    /* Cover the entire container with the image */
+}
+
+.postcard__title {
+    font-size: 24px;
+    /* Larger font size for titles */
+    margin-top: 10px;
+    /* Add space between title and other content */
+}
+
+/* Styling for light theme */
+.light .postcard {
+    background: #fff;
+    /* White background for cards in light theme */
+    color: #c155c1;
+    /* Dark text color for light theme */
+}

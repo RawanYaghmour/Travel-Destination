@@ -2,5 +2,21 @@
 background: #18151f;
 } */
 h1{
-  color: #9f4d06 !important;
+  color: #0d0d0e !important;
+  font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header {
+  background-color: #5ac8c4;
+  /* Background color */
+  color: #fff;
+  /* Text color */
+  padding: 20px;
+  /* Padding around the text */
+  text-align: center;
+  /* Center align the text */
+  font-size: 24px;
+  /* Font size */
 }

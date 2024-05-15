@@ -1,0 +1,62 @@
+/* styles.css */
+.dark {
+    background-color: #333;
+    /* Dark background color */
+    color: #fff;
+    /* Text color */
+}
+
+.container {
+    max-width: 800px;
+    /* Limit the maximum width of the container */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 20px;
+    /* Add padding around the content */
+}
+
+.postcard {
+    background-color: #444;
+    /* Lighter background color */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Add padding inside the postcard */
+    margin-bottom: 20px;
+    /* Add some space between postcards */
+}
+
+.postcard__img {
+    max-width: 100%;
+    /* Make sure images don't exceed the postcard width */
+    border-radius: 8px;
+    /* Rounded corners for images */
+}
+
+.postcard__title {
+    font-size: 24px;
+    /* Larger font size for titles */
+    margin-top: 10px;
+    /* Add some space between title and other content */
+}
+
+.postcard__preview-txt {
+    margin-top: 10px;
+    /* Add some space between text and other content */
+}
+
+.tag__item {
+    list-style: none;
+    /* Remove default list style */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.play a {
+    color: #fff;
+    /* White color for the link text */
+    text-decoration: none;
+    /* Remove underline from links */
+}
